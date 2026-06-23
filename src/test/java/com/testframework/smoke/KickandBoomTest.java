@@ -42,15 +42,15 @@ public class KickandBoomTest extends BaseTest {
 
         dashboardPage.clickTermOFConditionsLink();
         assertTrue(dashboardPage.isInfoModalTitle());
-        dashboardPage.closeLink();
+        dashboardPage.closeModuleLink();
 
         dashboardPage.clickPrivacyLink();
         assertTrue(dashboardPage.isInfoModalTitle());
-        dashboardPage.closeLink();
+        dashboardPage.closeModuleLink();
 
         dashboardPage.clickCookieLink();
         assertTrue(dashboardPage.isInfoModalTitle());
-        dashboardPage.closeLink();
+        dashboardPage.closeModuleLink();
 
         dashboardPage.clickPlayForFreeButton();
         assertTrue(dashboardPage.isValueYourPrivacyTittle());

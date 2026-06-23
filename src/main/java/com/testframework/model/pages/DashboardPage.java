@@ -32,7 +32,7 @@ public class DashboardPage extends BasePage<DashboardPage> {
     private final SelenideElement privacyPolicyLink = $(Selectors.byXpath(getValue(PAGE_NAME, "privacy_policy_link")));
     private final SelenideElement cookiesLink = $(Selectors.byXpath(getValue(PAGE_NAME, "cookies_link")));
     private final SelenideElement valueYourPrivacyText2 = $(Selectors.byXpath(getValue(PAGE_NAME, "value_your_privacy_text2")));
-    private final SelenideElement closeLink = $(Selectors.byXpath(getValue(PAGE_NAME, "close_link")));
+    private final SelenideElement closeModuleLink = $(Selectors.byXpath(getValue(PAGE_NAME, "close_link")));
 
     public DashboardPage() {
         super(VALUE_YOUR_PRIVACY);
@@ -136,8 +136,8 @@ public class DashboardPage extends BasePage<DashboardPage> {
         TestReporter.reportDebugStep("Term OF Conditions Apply was clicked");
     }
 
-    public void closeLink() {
-        closeLink.shouldBe(Condition.visible).click();
+    public void closeModuleLink() {
+        closeModuleLink.shouldBe(Condition.visible).click();
         TestReporter.reportDebugStep("Close link was clicked");
     }
 
