@@ -1,0 +1,217 @@
+TC-001. Verify Home Page Loads Successfully
+
+Preconditions: User has internet access.
+
+Steps:
+
+Open the website.
+Wait until the page is fully loaded.
+
+Expected Result:
+The page loads without errors.
+Logo, title, illustrations, and CTA button are displayed.
+No broken images or layout issues are present.
+
+TC-002. Verify Responsive Layout
+
+Steps:
+
+Open the page on Desktop.
+Open the page on Tablet.
+Open the page on Mobile.
+
+Expected Result:
+All elements are displayed correctly.
+No overlapping content.
+The page is usable on all supported screen sizes.
+Play For Free Button
+
+TC-003. Verify "PLAY FOR FREE" Button Visibility
+
+Steps:
+
+Open the landing page.
+
+Expected Result:
+The "PLAY FOR FREE" button is visible.
+Button text is readable and properly aligned.
+TC-004. Verify Navigation via "PLAY FOR FREE" Button
+
+Steps:
+
+Click the "PLAY FOR FREE" button.
+
+Expected Result:
+User is redirected to the game page or game launch screen.
+No 404, 500, or other system errors occur.
+
+TC-005. Verify Button Clickable Area
+
+Steps:
+
+Click the center of the button.
+Click each edge of the button.
+
+Expected Result:
+The button responds to clicks across its entire visible area.
+Cookie Consent Banner
+
+TC-006. Verify Cookie Banner Appears for New User
+
+Preconditions: Clear browser cookies.
+
+Steps:
+
+Open the website.
+
+Expected Result:
+Cookie consent banner is displayed.
+
+TC-007. Verify "Accept All" Functionality
+
+Steps:
+
+Click the "Accept All" button.
+
+Expected Result:
+Cookie banner closes.
+Consent is saved.
+Banner does not reappear after page refresh.
+
+TC-008. Verify "Customise" Functionality
+
+Steps:
+
+Click the "Customise" button.
+
+Expected Result:
+Cookie preference settings are displayed.
+User can manage cookie categories.
+TC-009. Verify Cookie Preferences Persistence
+
+Steps:
+
+Open cookie settings.
+Change preferences.
+Save changes.
+Refresh the page.
+
+Expected Result:
+
+Selected preferences remain saved.
+Banner does not reappear unnecessarily.
+Language Selector
+
+TC-010. Verify Language Selector Visibility
+
+Steps:
+
+Open the landing page.
+
+Expected Result:
+Language selector is displayed in the top-right corner.
+
+TC-011. Verify Language Change
+
+Steps:
+
+Open the language dropdown.
+Select another available language.
+
+Expected Result:
+All page content is translated into the selected language.
+No untranslated strings are visible.
+TC-012. Verify Language Persistence
+
+Steps:
+
+Change the language.
+Refresh the page.
+
+Expected Result:
+
+The selected language remains active.
+Content Verification
+
+TC-013. Verify Benefits Section Content
+
+Steps:
+
+Review the benefits section.
+
+Expected Result:
+The following benefits are displayed:
+100% Free
+No Registration Required
+No App Permissions
+Text is free of spelling and formatting issues.
+
+TC-014. Verify Images and Graphics Display Correctly
+
+Steps:
+
+Check the logo.
+Check the smartphone illustration.
+Check decorative elements (clouds, character, icons).
+
+Expected Result:
+
+All images load successfully.
+No distortion, missing assets, or visual defects.
+
+
+Negative Testing
+
+TC-015. Verify Behavior with JavaScript Disabled
+
+Steps:
+
+Disable JavaScript in the browser.
+Open the website.
+
+Expected Result:
+
+Page degrades gracefully or displays a meaningful message.
+No critical rendering failures occur.
+TC-016. Verify Behavior on Slow Network
+
+Steps:
+
+Enable Slow 3G network throttling in DevTools.
+Reload the page.
+
+Expected Result:
+Page loads successfully.
+Loading indicators or placeholders are displayed if applicable.
+No broken UI elements appear.
+Cross-Browser Testing
+
+TC-017. Verify Functionality in Google Chrome
+
+Expected Result:
+All page elements and functionality work correctly.
+
+TC-018. Verify Functionality in Mozilla Firefox
+
+Expected Result:
+All page elements and functionality work correctly.
+
+TC-019. Verify Functionality in Microsoft Edge
+
+Expected Result:
+All page elements and functionality work correctly.
+
+TC-020. Verify Functionality in Safari
+
+Expected Result:
+All page elements and functionality work correctly.
+
+TC-021. External Redirects Work Correctly. Verify navigation to external/internal partner pages.
+
+Steps:
+
+Click footer links (Terms of Use, Privacy Policy, Cookie Policy).
+
+Expected Result:
+Correct page opens.
+No broken links (404/500 errors).

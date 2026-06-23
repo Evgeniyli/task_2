@@ -1,0 +1,47 @@
+Automation Strategy
+What should be automated
+Navigation links (KickAndBoom, BacanaGol, 18+ Portal).
+CTA buttons (Play Now, Continue).
+Loading of game pages.
+Recommendation section ("You Might Like").
+Responsive behavior on desktop/tablet/mobile.
+Visual regression of the main page layout.
+Analytics events (click on Play Now, Continue).
+Smoke and regression tests for critical user flows.
+
+What should remain manual
+Exploratory testing.
+UX and usability validation.
+Ad/banner content verification.
+New game content validation.
+Subjective visual reviews.
+
+Recommended tools/frameworks
+Selenide + Java for UI automation.
+Selenide for visual regression.
+Allure Reports for reporting.
+GitHub Actions or Jenkins for CI/CD.
+
+Integration into development/release process
+Run smoke tests on every Pull Request.
+Run full regression suite nightly.
+Execute visual regression tests before releases.
+Block deployment if critical automated tests fail.
+Run post-deployment smoke tests in staging/production.
+
+After release:
+Automated smoke tests in production/staging
+Monitoring and alert validation
+Health-check APIs
+Recommended Test Pyramid
+
+                UI Tests
+                   10%
+              /------------\
+             /              \
+        API / Integration Tests
+                  30%
+          /--------------------\
+         /                      \
+                Unit Tests
+                   60%

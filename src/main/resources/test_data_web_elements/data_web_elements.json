@@ -1,0 +1,26 @@
+{
+  "main_page": {
+    "img_logo": "//img[@alt='Kick and Boom logo']",
+    "value_your_privacy_text": "//*[text()='We value your privacy']",
+    "value_your_privacy_text2": "//span[text()='We value your privacy']",
+    "accept_all": "//button[@aria-label='Accept All']",
+    "kick_and_boom_tittle": "//h1//span[text()='KickAndBoom:']",
+    "penalty_duels": "//h1//span[text()='1v1 Penalty Duels']",
+    "free_no_credit_card_Required_tittle": "//p[text()='100% Free No Credit Card Required']",
+    "no_registration_needed_tittle": "//p[text()='No Registration Needed']",
+    "no_app_permissions_tittle": "//p[text()='No App Permissions']",
+    "how_to_pay_tittle": "//h2[text()='How to play']",
+    "join_the_millions_of_players_tittle": "//p[text()='Join the millions of players already testing their reflexes and ']",
+    "when_to_play_kick_and_boom_tittle": "//h4[text()='When to play Kick and Boom']",
+    "about_us_tittle": "//p[text()='We are a new gaming studio based in London, UK. Our mission is to create free and fun games for the casual-gaming community.']",
+    "play_for_free_button": "//span[@aria-label='Play for free']",
+    "term_and_conditions_apply": "//a[@href='terms.html']",
+    "privacy_policy_link": "//a[@href='privacy_policy.html']",
+    "cookies_link": "//a[@href='cookies.html']",
+    "accept-btn": "//button[@id='accept-btn']",
+    "info_modal_title_button": "//div[@id='info-modal-title']",
+    "more-options-btn": "//button[@id='more-options-btn']",
+    "react-unity-webgl-canvas-1": "//canvas[@id='react-unity-webgl-canvas-1']",
+    "close_link": "//button[@aria-label='Close']//img[@class='info-modal__close-icon']"
+  }
+}
